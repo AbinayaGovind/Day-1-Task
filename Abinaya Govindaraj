@@ -1,0 +1,14 @@
+1.  Question:  Write a blog on Difference between HTTP1.1 vs HTTP2   
+     Answer:    HTTP/1.1 loads the ressources one after the other, i.e, the request and responses will go back and forth betweeen server and client until the web browser
+                     receive all the resources necessary to open the HTML page. Messages are transformed as plain text messages.
+                HTTP/2 sends all the resources at once using the TCP/IP connection, so that no resources will blocks web browser to open the HTML page. It uses binary
+                     framing format to transfer the messages.
+           
+  2. Question :   Write a blog about objects and its internal representation in Javascript ?
+     Answer  :     Objects:  objects are an unordered collection of related data, it can contain any combination of data types.
+                   Internal Representation:  If student is a object, it will have properties like name (string data type), age(integer data type),
+                      address (string and integer), id, etc. We can access properties of an object with a single dot (.)notation.
+                      Example : object name.property name  
+                                 Student.name
+                                 Student.age
+                                 Student.address, etc...,
